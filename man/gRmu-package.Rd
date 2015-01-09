@@ -3,11 +3,10 @@
 \alias{gRmu}
 \docType{package}
 \title{
-What the package does (short line)
+Utilities for Graphical Models in gRain
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+Functions and GUI tools to interact with/view graphical models in gRain
 }
 \details{
 \tabular{ll}{
@@ -15,24 +14,18 @@ Package: \tab gRmu\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2015-01-08\cr
-License: \tab What Licence is it under ?\cr
+License: \tab GPL-3\cr
 }
-~~ An overview of how to use the package, including the most important functions ~~
+Handy functions to interact with graphical models made with or pulled into gRain.
 }
 \author{
-Who wrote it
+Nick Petraco and Tanya Napolitano
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Maintainer: <npetraco@gmail.com>
 }
 \references{
-~~ Literature or other references for background information ~~
-}
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
-\keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
-\examples{
-%% ~~ simple examples of the most important functions ~~
+http://cran.r-project.org/web/packages/gRain/index.html\cr
+http://reasoning.cs.ucla.edu/samiam/\cr
+https://dslpitt.org/genie/\cr
+http://www.hugin.com/\cr
 }

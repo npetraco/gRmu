@@ -1,0 +1,73 @@
+net 
+{
+    node_size = (76 36);
+}
+
+node H
+{
+    label = "H";
+    position = (391 239);
+    states = ("Hp"  "Hd");
+}
+
+node X
+{
+    label = "X";
+    position = (656 220);
+    states = ("present"  "absent");
+}
+
+node TS
+{
+    label = "TS";
+    position = (565 113);
+    states = ("present"  "absent");
+}
+
+node T
+{
+    label = "T";
+    position = (391 109);
+    states = ("yes"  "no");
+}
+
+node Y
+{
+    label = "Y";
+    position = (391 -13);
+    states = ("present"  "absent");
+}
+
+potential (H |)
+{
+    data = (0.50000000 0.50000000);
+}
+
+potential (X |)
+{
+    data = (0.50000000 0.50000000);
+}
+
+potential (TS | H X)
+{
+    data = (((1.00000000 0.00000000)
+        (0.00000000 1.00000000))
+        ((0.01000000 0.99000000)
+        (0.01000000 0.99000000)));
+}
+
+potential (T | H TS)
+{
+    data = (((0.80000000 0.20000000)
+        (0.00000000 1.00000000))
+        ((0.50000000 0.50000000)
+        (0.50000000 0.50000000)));
+}
+
+potential (Y | T TS)
+{
+    data = (((1.00000000 0.00000000)
+        (0.00000000 1.00000000))
+        ((0.00000000 1.00000000)
+        (0.00000000 1.00000000)));
+}
