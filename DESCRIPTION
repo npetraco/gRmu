@@ -5,7 +5,7 @@ Version: 0.1
 Date: 2015-01-08
 Author: Nick Petraco and Tanya Napolitano
 Maintainer: <npetraco@gmail.com>
-Description: Tools to interact with graphical models in gRain
+Description: Tools to interact with graphical models in gRain, RHugin and (eventually) sip
 License: GPL-3
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
