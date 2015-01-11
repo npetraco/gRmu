@@ -28,4 +28,5 @@ http://cran.r-project.org/web/packages/gRain/index.html\cr
 http://reasoning.cs.ucla.edu/samiam/\cr
 https://dslpitt.org/genie/\cr
 http://www.hugin.com/\cr
+http://rhugin.r-forge.r-project.org/\cr
 }
